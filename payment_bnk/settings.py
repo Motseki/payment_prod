@@ -63,6 +63,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'payment_bnk.urls'
 
+CSRF_TRUSTED_ORIGINS = ['https://web-production-841ff.up.railway.app/']
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
