@@ -1,7 +1,7 @@
 asgiref==3.7.2
 defusedxml==0.7.1
 diff-match-patch==20230430
-Django==5.0
+# Django==5.0
 django-import-export==3.3.5
 django-jazzmin==2.6.0
 django-shortuuidfield==0.1.3
