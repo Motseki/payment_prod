@@ -27,6 +27,7 @@ SECRET_KEY = 'django-insecure-0mo2p-jk5139o^2)nz)q19si6nt4i3k2eavou2y_q+d6^a4j-9
 DEBUG = True
 
 # ALLOWED_HOSTS = []
+#Allow all
 ALLOWED_HOSTS = ["*"]
 # ALLOWED_HOSTS = ["paylio.up.railway.app"]
 
@@ -62,7 +63,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'payment_bnk.urls'
-
+#Trusted Sites
 CSRF_TRUSTED_ORIGINS = ['https://web-production-841ff.up.railway.app/']
 
 TEMPLATES = [
