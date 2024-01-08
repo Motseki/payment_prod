@@ -26,11 +26,7 @@ SECRET_KEY = 'django-insecure-0mo2p-jk5139o^2)nz)q19si6nt4i3k2eavou2y_q+d6^a4j-9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# ALLOWED_HOSTS = []
-#Allow all
-ALLOWED_HOSTS = ["*"]
-# ALLOWED_HOSTS = ["paylio.up.railway.app"]
-
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -63,8 +59,6 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'payment_bnk.urls'
-#Trusted Sites
-CSRF_TRUSTED_ORIGINS = ['https://web-production-841ff.up.railway.app/']
 
 TEMPLATES = [
     {
@@ -132,9 +126,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'),]
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
